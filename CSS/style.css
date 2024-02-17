@@ -1,0 +1,50 @@
+* {
+    color: black;
+    font-size: 20px;
+  }
+  
+  body {
+    color: aqua;
+  }
+  
+  .text {
+    color: red;
+  }
+  
+  p[class="text"] {
+    color: blue;
+  }
+  
+  p.text {
+    color: rgb(15, 60, 99);
+  }
+  
+  #id-text {
+    color: brown;
+  }
+  
+  #id-text.text {
+    color: yellow;
+  }
+  article > p {
+    color: orange;
+  }
+  .post > a {
+    color: blueviolet;
+    font-size: 18px;
+  }
+  
+  .post > a:hover,
+  .post > a:focus {
+    color: chocolate;
+    font-size: 21px;
+  }
+  
+  button {
+    color: coral;
+  }
+  
+  button:hover,
+  button:focus {
+    color: cyan;
+  }
